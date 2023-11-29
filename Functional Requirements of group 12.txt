@@ -1,0 +1,40 @@
+﻿* Functional 
+* Requirements:
+* * User Registration and Profile Management:
+   * Users can create an account and log in using email and phone number.
+   * Users can set up and manage their profiles, including skin type, concerns, allergies, preferences, regions(humidity, pollution, temperature), sun exposure (how many times in a week and hours) and age.
+* Skin Problem Sharing:
+   * Users can submit descriptions and images of their skin problems.
+   * Users can set privacy controls for sharing their skin issues with the community and dermatologists (User info will be shared only with their permission).
+* Dermatologist Consultation:
+   * Certified dermatologists recommendation, visitation hours, address (within location), contact info will be provided.
+   * The software should facilitate text consultations: live chat done by 4 or 5 people (veterans). 
+   * Dermatologists can provide feedback, recommendations on dermatologists and veterans they have consulted.
+* Skin Analysis and Recommendations:
+   * The automatically sent queries/quizzes should analyse users' skin type and concerns. 
+   * Personalised product recommendations for cleansers, moisturisers, sunscreens, and treatments based on the analysis. According to what the user is asking.
+* Product Search and Integration:
+   * Detailed product information, including ingredients, usage instructions, and prices will be provided.
+* User Community and Discussion:
+   * Users can participate in a community forum for skincare discussions.
+   * Users can post reviews and recommendations of a specific product or treatment.
+   * A question and answer section for users to seek advice from the community.
+* Notifications and Alerts:
+   * Notifications for new product recommendations and updates from the community.
+* Privacy and Security:
+   * User data will be encrypted to protect privacy.
+   * Compliance with data protection regulations.
+   * Users have control over data sharing and can set privacy preferences.
+* Feedback and Reporting:
+   * Users can provide feedback and ratings for dermatologists and products.
+   * Reporting functionality for inappropriate content or behaviour within the community.
+* Integration with Trusted Stores:
+   * Secure and reliable integration with reputable online stores to ensure safe and convenient product purchases.
+* Search and Filter Functionality:
+   * Robust search and filter options for skincare products based on user preferences, skin type, and concerns.
+* Real-time Chat with Users:
+   * Users can engage in real-time chat with other users  for user recommendations.
+* User Progress Tracking:
+   * Users can track their skincare routine progress, including before-and-after images and skin health analytics.
+* Virtual Makeup and Simulations: (optional)
+   * Implement virtual makeup and skin improvement simulations to allow users to experiment with different products and visual transformations.
