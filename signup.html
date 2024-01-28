@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Signup - Skincare Help Center</title>
+        <link rel="stylesheet" href="./css/signup.css   " />
+    </head>
+
+    <body>
+        <nav class="navbar">
+                <a href="index.php" class="btn-logout">Home</a>
+            </div>
+        </nav>
+
+        <div class="background">
+            <div class="container">
+                <h1 class="title">Signup</h1>
+                <form class="signup-form" action="submit_signup.php" method="post">
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Eg. Anna Smith" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Eg. example@email.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+880" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your Password here" required />
+                    </div>
+                    <button type="submit" class="btn">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

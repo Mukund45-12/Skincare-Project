@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #333, #af8a4ee3);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    color: white;
+}
+
+.logged-in-user {
+    font-weight: bold;
+}
+
+.btn-logout {
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-right: 2rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #c29e64b6;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.btn-logout:hover {
+    background-color: #524126e3;
+}
+
+.welcome-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.background {
+    background-image: url('../media/shonchaite_pretty.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.705);
+    padding: 30px;
+    border-radius: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+}
+
+.title {
+    font-size: 2.5em;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+    font-size: 1.1em;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='tel'],
+select {
+    width: calc(100% - 20px);
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    outline: none;
+    font-size: 1.1em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 25px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #af8a4ee3;
+    border: 2px solid #af8a4ee3;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-size: 1.1em;
+}
+
+.btn:hover {
+    background-color: #927341e3;
+}

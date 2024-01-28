@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-image: url('../media/Homelol.jpg');
+    /* background-size: cover; */
+    background-position: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #919090e7, #f1b1e77a);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    color: white;
+}
+
+.logged-in-user {
+    font-weight: bold;
+}
+
+.btn-logout {
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-right: 2rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #f1b1e77a;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.btn-logout:hover {
+    background-color: #ee578a;
+}
+
+.welcome-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profile-hud {
+    font-size: 1.8rem;
+    top: 130px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow-y: hidden;
+}
+.user-profile p {
+    margin: 60px 0;
+}
+
+.highlighted {
+    font-weight: bold;
+    border-left: 4px solid #af8a4ee3;
+    padding-left: 10px;
+    font-size: 1.1em;
+}
+
+.edit-button {
+    margin-left: 6rem;
+    bottom: 20px;
+}
+
+.btn-edit-profile {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #ee81a6b6;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-edit-profile:hover {
+    background-color:#ee4b82b6;
+}
+
+.dashboard-content {
+    display: flex;
+    margin-top: 80px;
+}
+
+.left-column {
+    flex: 0.5;
+    padding: 20px;
+}
+
+.right-column {
+    flex: 1.7;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    margin-top: 4rem;
+    background-color: #f2f2f28c;
+    color: #ee5789c2;
+    border-radius: 10px;
+    padding: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.box h2 {
+    margin-bottom: 15px;
+}
+
+.box-button {
+    padding: 50px 100px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #f1b1e7ad;
+    color: #f1b1e79d;
+    transition: background-color 0.3s ease;
+}
+
+.box-button:hover {
+    background-color: #ee5789c2;
+}
